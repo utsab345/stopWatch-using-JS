@@ -1,0 +1,81 @@
+body{
+    position: absolute;
+    background-color: rgb(158, 158, 238);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.timerInterface{
+    position: relative;
+    height: 530px;
+    width: 260px;
+    background-color: white;
+    border-radius: 25px;
+}
+.timerface{
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    top: 16%;
+    left: 9%;
+    border: 7px solid rgb(76, 76, 243);
+}
+p{
+    position: relative;
+    top: -49%;
+   text-align: center;
+    font-size: 16px;
+}
+.timer{
+    position: absolute;
+    top: 37%;
+    left: 15%;
+    font-size: 40px;
+    color: rgb(76, 76, 243) ;
+}
+button{
+    position: relative;
+    top: 50%;
+    font-size: 16px;
+    padding: 10px;
+    width: 85px;
+   cursor: pointer;
+}
+ .resetBtn{
+    position: relative;
+    top: 33%;
+    left: -3%;
+    background-color: rgb(76, 76, 243) ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.startBtn{
+    position: relative;
+    left: 10%;
+    top: 50%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(44, 229, 44);
+    color: white;
+}
+.pauseBtn{
+    position: relative;
+    left: 57%;
+    top: 43%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240, 66, 95);
+    color: white;
+}
+.resetBtn:hover{
+    background-color:  rgb(38, 38, 222) ;
+}
+.startBtn:hover{
+    background-color: rgb(11, 158, 11);
+
+}
+.pauseBtn:hover{
+    background-color: rgb(214, 20, 52);
+}
